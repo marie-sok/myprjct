@@ -11,5 +11,21 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+        var workingHours = 1240;
+        var oneEmployee = 6;
+        var TotalEmployeesInTheCompany = workingHours / oneEmployee;
+        System.out.println(1240 / 6);
+
+       var totalEmployeesInTheCompany = 206;
+        var totalEmployees = totalEmployeesInTheCompany + 107;
+        System.out.println(totalEmployeesInTheCompany + 107);
+
+        workingHours = 1240;
+        totalEmployees = 206;
+        var totalWorkingHours = workingHours / totalEmployees;
+        System.out.println(totalWorkingHours);
+
+        System.out.println("If the Company Employs 206 People, Then Only Up to 6 Hours Devided Between Employees");
+
     }
 }
